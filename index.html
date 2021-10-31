@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Valery Pavlov</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <div class="main-page">
+        <div class="nav">
+            <ul class="nav-bar">
+                <a href="#about" class="nav-link">
+                    <li class="nav-item">About</li>
+                </a>
+                <a href="#experience" class="nav-link">
+                    <li class="nav-item">Experience</li>
+                </a>
+                <a href="#skills" class="nav-link">
+                    <li class="nav-item">Skills</li>
+                </a>
+            </ul>
+        </div>
+        <main class="main-content">
+            <div class="tab active" id="about">
+            <h1>Some facts about me</h1>
+            <div class="about-container">
+                <div class="about-items">
+            <ul class="about-list">
+                <li class="about-item">
+                    Currently working as a full-stack developer at BestDoctor.<br>
+                    We are making lifes of thousands of people better by providing best medical care possible.<br>
+                    And I'm making life of our service care department better by improving and automating their job.<br>
+                </li>
+                <li class="about-item">
+                    Believe that everything must be automated as much as it can reasonably be.<br>
+                    So I use static checks as much as possible (mypy and TypeScript for types, flake8 and eslint for other static checks).<br>
+                    This saves a lot of cognitive energy during writing and reviewing code.<br>
+                </li>
+                <li class="about-item">
+                    Have great experience in software testing and it helps me a lot in my developer tasks.<br>
+                </li>
+                <li class="about-item">
+                    Father of a <span id="sons-age">5-month</span> old son.<br>
+                </li>
+                <li class="about-item">
+                    Finished several calligraphy courses.<br>
+                </li>
+            </ul>
+        </div>
+            <div class="about-photo-container"><img class="about-photo" alt="myself" src="images/myself.jpg"></div>
+        </div>
+        </div>
+        <div class="tab active" id="experience">
+            <h1>Experience</h1>
+            <div class="job-item">
+                <div class="timeline">Feb. 2020 - Today</div>
+                <div class="job-header">
+                    <div class="job-header-item company-icon">
+                        <img class="company-icon" alt="BestDoctor" src="images/companies/bestdoctor.svg ">
+                    </div>
+                    <div class="job-header-item company-name">
+                        <a class="company-name" href="https://www.bestdoctor.ru/" target="_blank" rel="noreferrer">
+                            BestDoctor
+                        </a>
+                    </div>
+                </div>
+                <div class="job-title">Full Stack Developer</div>
+                <div class="job-place">Moscow, Russian Federation</div>
+                <div class="project">Project: Service Tools</div>
+                <ul class="job-description">
+                    <li class="job-description-item">
+                        Internal tools for business-process automation development
+                    </li>
+                    <li class="job-description-item">
+                        Internal CRM system for operators and doctors development
+                    </li>
+                    <li class="job-description-item">
+                        CRM-systems building open-source framework "<a href="https://github.com/best-doctor/ke">ke</a>" development
+                    </li>
+                    <li class="job-description-item">
+                        Clinic online-booking microservice architecture and system design
+                    </li>
+                    <li class="job-description-item">
+                        Code review
+                    </li>
+                    <li class="job-description-item">
+                        Teamleading
+                    </li>
+                </ul>
+                <ul class="tools">
+                    <li class="tool-item">Python</li>
+                    <li class="tool-item">Django</li>
+                    <li class="tool-item">Pytest</li>
+                    <li class="tool-item">DRF</li>
+                    <li class="tool-item">TypeScript</li>
+                    <li class="tool-item">React</li>
+                    <li class="tool-item">Jest</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <div class="timeline">Apr.2019 - Feb. 2020</div>
+                <div class="job-header">
+                    <div class="job-header-item company-icon">
+                        <img class="company-icon" alt="BestDoctor" src="images/companies/bestdoctor.svg ">
+                    </div>
+                    <div class="job-header-item company-name">
+                        <a class="company-name" href="https://www.bestdoctor.ru/" target="_blank" rel="noreferrer">
+                            BestDoctor
+                        </a>
+                    </div>
+                </div>
+                <div class="job-title">Software Test Engineer</div>
+                <div class="job-place">Moscow, Russian Federation</div>
+                <div class="project">Project: Internal Tools</div>
+                <ul class="job-description">
+                    <li class="job-description-item">
+                        Internal tools and business-processes testing
+                    </li>
+                    <li class="job-description-item">
+                        Mobile and web applications test-automation framework development
+                    </li>
+                    <li class="job-description-item">
+                        Technical interviewing
+                    </li>
+                </ul>
+                <ul class="tools">
+                    <li class="tool-item">Python</li>
+                    <li class="tool-item">Pytest</li>
+                    <li class="tool-item">Selenium</li>
+                    <li class="tool-item">Appium</li>
+                    <li class="tool-item">BrowserStack</li>
+                    <li class="tool-item">TestRail</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <div class="timeline">Jan. 2019 - Apr.2019</div>
+                <div class="job-header">
+                    <div class="job-header-item company-icon">
+                        <img class="company-icon" alt="Digital League" src="images/companies/digitalleague.png">
+                    </div>
+                    <div class="job-header-item company-name">
+                        <a class="company-name" href="https://www.digitalleague.ru/" target="_blank" rel="noreferrer">
+                            <abbr title="ЛИГА Цифровой Экономики">Digital League</abbr>
+                        </a>
+                    </div>
+                </div>
+                <div class="job-title">Test Automation Engineer</div>
+                <div class="job-place">Moscow, Russian Federation</div>
+                <div class="project">Project: Sberbank "Corpotate CRM"</div>
+                <ul class="job-description">
+                    <li class="job-description-item">
+                        Integration test automation between CRM and other systems
+                    </li>
+                    <li class="job-description-item">
+                        Business scenarios automation
+                    </li>
+                    <li class="job-description-item">
+                        Test framework development
+                    </li>
+                </ul>
+                <ul class="tools">
+                    <li class="tool-item">Java</li>
+                    <li class="tool-item">TestNG</li>
+                    <li class="tool-item">Oracle Siebel</li>
+                    <li class="tool-item">Allure</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <div class="timeline">Sep. 2017 - Jan.2019</div>
+                <div class="job-header">
+                    <div class="job-header-item company-icon">
+                        <img class="company-icon" alt="Digital League" src="images/companies/digitalleague.png">
+                    </div>
+                    <div class="job-header-item company-name">
+                        <a class="company-name" href="https://www.digitalleague.ru/" target="_blank" rel="noreferrer">
+                            <abbr title="ЛИГА Цифровой Экономики">Digital League</abbr>
+                        </a>
+                    </div>
+                </div>
+                <div class="job-title">Software Test Engineer</div>
+                <div class="job-place">Moscow, Russian Federation</div>
+                <div class="project">Project: Sberbank "Unified Client Profile for Corporate Clients"</div>
+                <ul class="job-description">
+                    <li class="job-description-item">
+                        API-integration test-framework architecture and design
+                    </li>
+                    <li class="job-description-item">
+                        Functional requirements analysis and update
+                    </li>
+                    <li class="job-description-item">
+                        User-acceptance testing
+                    </li>
+                    <li class="job-description-item">
+                        Statistic reports analysis
+                    </li>
+                </ul>
+                <ul class="tools">
+                    <li class="tool-item">Java</li>
+                    <li class="tool-item">Cucumber</li>
+                    <li class="tool-item">Allure</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <div class="timeline">Jul. 2016 - Sep.2017</div>
+                <div class="job-header">
+                    <div class="job-header-item company-icon">
+                        <img class="company-icon" alt="Aplana" src="images/companies/aplana.jpeg">
+                    </div>
+                    <div class="job-header-item company-name">
+                        <a class="company-name" href="https://aplanagroup.ru/" target="_blank" rel="noreferrer">
+                            <abbr title="Аплана">Aplana</abbr>
+                        </a>
+                    </div>
+                </div>
+                <div class="job-title">Software Test Engineer</div>
+                <div class="job-place">Moscow, Russian Federation</div>
+                <div class="project">Project: Sberbank "Unified Client Profile for Corporate Clients"</div>
+                <ul class="job-description">
+                    <li class="job-description-item">
+                        Functional requirements analysis and update
+                    </li>
+                    <li class="job-description-item">
+                        Test-plan design
+                    </li>
+                    <li class="job-description-item">
+                        Test-case development
+                    </li>
+                    <li class="job-description-item">
+                        Manual interface testing
+                    </li>
+                    <li class="job-description-item">
+                        Manual CRUD services API testing
+                    </li>
+                    <li class="job-description-item">
+                        Manual integration testing
+                    </li>
+                    <li class="job-description-item">
+                        User-acceptance testing
+                    </li>
+                    <li class="job-description-item">
+                        Partial test-process automation
+                    </li>
+                </ul>
+                <ul class="tools">
+                    <li class="tool-item">Python</li>
+                    <li class="tool-item">Selenium</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <div class="timeline">Sep. 2012 - Apr. 2016</div>
+                <div class="job-header">
+                    <div class="job-header-item company-icon">
+                        <img class="company-icon" alt="DC BARS" src="images/companies/dcbars.jpeg">
+                    </div>
+                    <div class="job-header-item company-name">
+                        <a class="company-name" href="http://www.dcbars.ru/" target="_blank" rel="noreferrer">
+                            DC BARS
+                        </a>
+                    </div>
+                </div>
+                <div class="job-title">Software Test Engineer</div>
+                <div class="job-place">Tambov, Russian Federation</div>
+                <div class="project">Projects: Boeing 787-9, Dassault, Gulfstream, APEX</div>
+                <ul class="job-description">
+                    <li class="job-description-item">
+                        Test-plan design
+                    </li>
+                    <li class="job-description-item">
+                        Test-script development (White-box testing using DO-178B/C standarts)
+                    </li>
+                    <li class="job-description-item">
+                        Code coverage collection and analysis
+                    </li>
+                    <li class="job-description-item">
+                        Code and requirements regression analysis
+                    </li>
+                    <li class="job-description-item">
+                        Test environment setup and preparation
+                    </li>
+                    <li class="job-description-item">
+                        Helper utilities development
+                    </li>
+                </ul>
+                <ul class="tools">
+                    <li class="tool-item">VBScript</li>
+                    <li class="tool-item">IBM RTRT</li>
+                    <li class="tool-item">CodeTest</li>
+                    <li class="tool-item">VectorCast</li>
+                </ul>
+            </div>
+            <div class="job-item">
+                <div class="timeline">Sep. 2013 - Jul. 2015</div>
+                <div class="job-header">
+                    <div class="job-header-item company-icon">
+                        <img class="company-icon" alt="TSTU" src="images/companies/tstu.jpg">
+                    </div>
+                    <div class="job-header-item company-name">
+                        <a class="company-name" href="https://www.tstu.ru/" target="_blank" rel="noreferrer">
+                            Tambov State Technical University
+                        </a>
+                    </div>
+                </div>
+                <div class="job-title">Master's Degree in Electronics and Nanoelectronics.</div>
+                <div class="job-place">Tambov, Russian Federation</div>
+            </div>
+        </div>
+        <div class="tab active" id="skills">
+            <h1>Skills</h1>
+            <h3>Hard Skills</h3>
+            <ul class="skills">
+                <li class="skill-item">Python</li>
+                <li class="skill-item">Django</li>
+                <li class="skill-item">Pytest</li>
+                <li class="skill-item">TypeScript</li>
+                <li class="skill-item">React</li>
+                <li class="skill-item">Jest</li>
+                <li class="skill-item">Git</li>
+                <li class="skill-item">Postgres</li>
+            </ul>
+            <h3>Soft Skills</h3>
+            <ul class="skills">
+                <li class="skill-item">English B2</li>
+                <li class="skill-item">Agile + Scrum</li>
+                <li class="skill-item">Proactive</li>
+                <li class="skill-item">Teamwork</li>
+            </ul>
+        </div>
+        </main> 
+    </div>
+    <footer>
+        <ul class="footer">
+            <!-- Thanks https://github.com/edent/SuperTinyIcons for icons -->
+            <li class="footer-item">
+                <a href="https://github.com/LerikP" target="_blank" rel="noreferrer">
+                    <img class="footer-item" src='images/github.svg' alt='GitHub'>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://www.linkedin.com/in/valery-pavlov-27a66517b/?locale=en_US" target="_blank" rel="noreferrer">
+                    <img class="footer-item" src='images/linkedin.svg' alt='LinkedIn'>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://t.me/lerikpav" target="_blank" rel="noreferrer">
+                    <img class="footer-item" src='images/telegram.svg' alt='Telegram'>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+
+</html>
