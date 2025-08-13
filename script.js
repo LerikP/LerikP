@@ -19,11 +19,9 @@ const setNavClickHandlers = () => {
     Array.from(document.getElementsByClassName('nav-item')).forEach((element, index) => element.onclick = () => setActive(index))
 }
 
-const setBirthDate = () => {
-    const birthDate = new Date(2021, 4, 23)
+const setBirthDate = (elementId, birthDate) => {
     const now = new Date()
-
-    const birthDateElement = document.getElementById('sons-age')
+    const birthDateElement = document.getElementById(elementId)
 
     const daysDiff = now.getDate() - birthDate.getDate()
     const monthsDiff = now.getMonth() - birthDate.getMonth() - (daysDiff >= 0 ? 0: 1)
@@ -40,5 +38,6 @@ const setBirthDate = () => {
 window.onload = () => {
     setNavClickHandlers()
     setInitialActiveItems()
-    setBirthDate()
+    setBirthDate('sons-age', new Date(2021, 4, 23))
+    setBirthDate('daughters-age', new Date(2024, 5, 21))
 }
